@@ -1,5 +1,4 @@
 // build your `Project` model here
-const { raw } = require('express')
 const db = require('../../data/dbConfig')
 
 module.exports = {
