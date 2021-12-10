@@ -7,10 +7,10 @@ const projectsRouter = require('./project/router');
 const tasksRouter = require('./task/router');
 
 
-
 const server = express();
 
 server.use(helmet());
+
 server.use(express.json());
 
 server.use('/api/resources', resourcesRouter);
